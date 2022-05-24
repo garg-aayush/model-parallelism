@@ -1,6 +1,7 @@
 ##########################
 ### MODEL
 ##########################
+# Simple GPU implementation and dice_loss function taken from https://github.com/milesial/Pytorch-UNet
 import os
 #os.environ["CUDA_VISIBLE_DEVICES"]="0,1"
 
