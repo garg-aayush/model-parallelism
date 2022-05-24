@@ -3,7 +3,7 @@ Training large models, especially for 3D image segmentation/reconstruction probl
 
 This repository provides two examples on how one can do model parallelism for architectures (ResNets, UNets) with skip conections using [torchgpipe](https://torchgpipe.readthedocs.io/en/stable/gpipe.html) [skip](https://github.com/kakaobrain/torchgpipe/tree/master/torchgpipe/skip) module:
 - [A_resnet18_model_sharding.py](https://github.com/garg-aayush/model-parallelism/blob/main/A_resnet18_model_sharding.py) : It uses the MNIST example to show short skip connections implementation for ResNets
-- [B_unet_model_sharding.py](https://github.com/garg-aayush/model-parallelism/blob/main/A_unet_model_sharding.py) : It uses the Kaggle's CARAVANA image masking challenge example to show long skip/cat connections implementation for UNets
+- [B_unet_model_sharding.py](https://github.com/garg-aayush/model-parallelism/blob/main/B_unet_model_sharding.py) : It uses the Kaggle's CARAVANA image masking challenge example to show long skip/cat connections implementation for UNets
 
 ## Quickstart
 #### Setup the environment
